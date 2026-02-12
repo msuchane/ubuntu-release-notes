@@ -21,31 +21,21 @@ import yaml
 #######################
 
 # Project name
-#
-# TODO: Update with the official name of your project or product
 
-project = "Documentation starter pack"
+project = "Ubuntu release notes"
 author = "Canonical Ltd."
 
 
 # Sidebar documentation title; best kept reasonably short
-#
-# TODO: To include a version number, add it here (hardcoded or automated).
-#
-# TODO: To disable the title, set to an empty string.
 
-html_title = project + " documentation"
+# html_title = project + " documentation"
+html_title = project
 
 
 # Copyright string; shown at the bottom of the page
 #
 # Now, the starter pack uses CC-BY-SA as the license
 # and the current year as the copyright year.
-#
-# TODO: If your docs need another license, specify it instead of 'CC-BY-SA'.
-#
-# TODO: If your documentation is a part of the code repository of your project,
-#       it inherits the code license instead; specify it instead of 'CC-BY-SA'.
 #
 # NOTE: For static works, it is common to provide the first publication year.
 #       Another option is to provide both the first year of publication
@@ -65,12 +55,10 @@ copyright = "%s CC-BY-SA, %s" % (datetime.date.today().year, author)
 
 # Documentation website URL
 #
-# TODO: Update with the official URL of your docs or leave empty if unsure.
-#
 # NOTE: The Open Graph Protocol (OGP) enhances page display in a social graph
 #       and is used by social media platforms; see https://ogp.me/
 
-ogp_site_url = "https://canonical-starter-pack.readthedocs-hosted.com/"
+ogp_site_url = "https://ubuntu-release-notes.readthedocs-hosted.com/"
 
 
 # Preview name of the documentation website
@@ -100,13 +88,7 @@ ogp_image = "https://assets.ubuntu.com/v1/cc828679-docs_illustration.svg"
 html_context = {
     # Product page URL; can be different from product docs URL
     #
-    # TODO: Change to your product website URL,
-    #       dropping the 'https://' prefix, e.g. 'ubuntu.com/lxd'.
-    #
-    # TODO: If there's no such website,
-    #       remove the {{ product_page }} link from the page header template
-    #       (usually .sphinx/_templates/header.html; also, see README.rst).
-    "product_page": "documentation.ubuntu.com",
+    "product_page": "ubuntu.com",
     # Product tag image; the orange part of your logo, shown in the page header
     #
     # TODO: To add a tag image, uncomment and update as needed.
@@ -121,21 +103,16 @@ html_context = {
     # Your Mattermost channel URL
     #
     # TODO: Change to your Mattermost channel URL or leave empty.
-    "mattermost": "https://chat.canonical.com/canonical/channels/documentation",
+    # "mattermost": "https://chat.canonical.com/canonical/channels/documentation",
+    "mattermost": "",
     # Your Matrix channel URL
-    #
-    # TODO: Change to your Matrix channel URL or leave empty.
-    "matrix": "https://matrix.to/#/#documentation:ubuntu.com",
+    "matrix": "https://matrix.to/#/#release:ubuntu.com",
     # Your documentation GitHub repository URL
-    #
-    # TODO: Change to your documentation GitHub repository URL or leave empty.
     #
     # NOTE: If set, links for viewing the documentation source files
     #       and creating GitHub issues are added at the bottom of each page.
-    "github_url": "https://github.com/canonical/sphinx-docs-starter-pack",
+    "github_url": "https://github.com/msuchane/ubuntu-release-notes",
     # Docs branch in the repo; used in links for viewing the source files
-    #
-    # TODO: To customise the branch, uncomment and update as needed.
     'repo_default_branch': 'main',
     # Docs location in the repo; used in links for viewing the source files
     #
@@ -147,18 +124,18 @@ html_context = {
     # Valid options: none, prev, next, both
     # "sequential_nav": "both",
     # TODO: To enable listing contributors on individual pages, set to True
-    "display_contributors": False,
+    "display_contributors": True,
 
-    # Required for feedback button    
+    # Required for feedback button
     'github_issues': 'enabled',
 }
 
 html_extra_path = []
 
 # Allow opt-in build of the OpenAPI "Hello" example so docs stay clean by default.
-if os.getenv("OPENAPI", ""):
-    tags.add("openapi")
-    html_extra_path.append("how-to/assets/openapi.yaml")
+# if os.getenv("OPENAPI", ""):
+#     tags.add("openapi")
+#     html_extra_path.append("how-to/assets/openapi.yaml")
 
 # TODO: To enable the edit button on pages, uncomment and change the link to a
 # public repository on GitHub or Launchpad. Any of the following link domains
@@ -167,9 +144,9 @@ if os.getenv("OPENAPI", ""):
 # - https://launchpad.net/example
 # - https://git.launchpad.net/example
 #
-# html_theme_options = {
-# 'source_edit_link': 'https://github.com/canonical/sphinx-docs-starter-pack',
-# }
+html_theme_options = {
+'source_edit_link': 'https://github.com/msuchane/ubuntu-release-notes',
+}
 
 # Project slug; see https://meta.discourse.org/t/what-is-category-slug/87897
 #
@@ -227,10 +204,6 @@ sitemap_excludes = [
 #       the sphinx_reredirects extension will be disabled.
 
 redirects = {
-    'reference/doc-cheat-sheet-myst/': '../myst-syntax-reference',
-    'reference/doc-cheat-sheet/': '../rst-syntax-reference',
-    'reference/style-guide-myst/': '../myst-syntax-reference',
-    'reference/style-guide/': '../rst-syntax-reference',
 }
 
 
@@ -335,8 +308,8 @@ rst_epilog = """
 # NOTE: If set, adding ':manpage:' to an .rst file
 #       adds a link to the corresponding man section at the bottom of the page.
 
-# manpages_url = 'https://manpages.ubuntu.com/manpages/{codename}/en/' + \
-#     'man{section}/{page}.{section}.html'
+manpages_url = 'https://manpages.ubuntu.com/manpages/resolute/en/' + \
+    'man{section}/{page}.{section}.html'
 
 
 # Specifies a reST snippet to be prepended to each .rst file
