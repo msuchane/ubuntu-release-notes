@@ -28,11 +28,13 @@ Our release cadence nunc elit magna, pulvinar sed egestas ut, porta sed leo. Nam
 
 LTS releases eleifend augue eros, vel viverra arcu accumsan malesuada. Cras consectetur, orci a porttitor pellentesque, est leo fringilla sapien, eu sagittis urna magna nec ipsum. Quisque iaculis tincidunt felis, a placerat quam. Curabitur non leo ac neque consectetur viverra. Duis mattis consectetur convallis.
 
-### What happens if there is a high- or critical-priority CVE during release day?
+### Security vulnerability policy on release day
+
+What happens if there is a high- or critical-priority Common Vulnerability and Exposure (CVE) during release day?
 
 Server, Desktop and Cloud plan to release in lockstep on release day, but there are some exceptions.
 
-In the unlikely event that a critical or high-priority CVE is announced on release day, the release team have agreed on the following plan of action:
+In the unlikely event that a critical- or high-priority CVE is announced on release day, the release team have agreed on the following plan of action:
 
 * For critical priority CVEs, the release of Server, Desktop and Cloud will be blocked until new images can be built addressing the CVE.
 

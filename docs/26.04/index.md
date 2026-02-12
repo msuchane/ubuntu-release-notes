@@ -1,5 +1,5 @@
 (ubuntu-26.04-lts-release-notes)=
-# Ubuntu 26.04 LTS
+# Ubuntu 26.04 LTS release notes
 
 :::{rubric} 15 April 2026
 :::
@@ -51,12 +51,11 @@ For details, see the complete interim release notes: [24.10](https://discourse.u
 
 …
 
-## Point releases
 
-### Changes in Ubuntu 26.04.1
+:::{toctree}
+:hidden:
+:maxdepth: 2
 
-…
-
-### Changes in Ubuntu 26.04.2
-
-…
+changes-in-ubuntu-26.04.1
+changes-in-ubuntu-26.04.2
+:::
