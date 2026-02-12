@@ -28,15 +28,44 @@ Our release cadence nunc elit magna, pulvinar sed egestas ut, porta sed leo. Nam
 
 LTS releases eleifend augue eros, vel viverra arcu accumsan malesuada. Cras consectetur, orci a porttitor pellentesque, est leo fringilla sapien, eu sagittis urna magna nec ipsum. Quisque iaculis tincidunt felis, a placerat quam. Curabitur non leo ac neque consectetur viverra. Duis mattis consectetur convallis.
 
-## More information
-
-### Reporting bugs
-
 ### What happens if there is a high- or critical-priority CVE during release day?
 
-### Participate in Ubuntu
+Server, Desktop and Cloud plan to release in lockstep on release day, but there are some exceptions.
 
-### More about Ubuntu
+In the unlikely event that a critical or high-priority CVE is announced on release day, the release team have agreed on the following plan of action:
+
+* For critical priority CVEs, the release of Server, Desktop and Cloud will be blocked until new images can be built addressing the CVE.
+
+* For high-priority CVEs, the decision to block release will be made on a per-product (Server, Desktop and Cloud) basis and will depend on the nature of the CVE, which might result in images not being released on the same day.
+
+This was discussed in the [`ubuntu–release` mailing list March/April 2023](https://lists.ubuntu.com/archives/ubuntu-release/2023-April/005610.html).
+
+The mailing list thread also confirmed there is no technical or policy reason why a package cannot be pushed to the Updates or Security pocket to address high or critical-priority CVEs prior to the release.
+
+
+(project-and-community)=
+## Project and community
+
+Ubuntu is an open source project that warmly welcomes community projects, contributions, suggestions, fixes and constructive feedback.
+
+You can find out more about Ubuntu on the [Ubuntu website](https://ubuntu.com/).
+
+### Report bugs
+
+Your comments, bug reports, patches and suggestions help fix bugs and improve the quality of future releases. Please [report bugs using the tools provided](http://help.ubuntu.com/community/ReportingBugs). If you want to help with bugs, the [Bug Squad](http://wiki.ubuntu.com/BugSquad) is always looking for help.
+
+### Get involved
+
+* [Sign up for future Ubuntu development announcements](https://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-announce)
+* [Get support](https://ubuntu.com/support/community-support)
+* [Join our Discourse forum](https://discourse.ubuntu.com)
+* [Join our online chat on Matrix](https://matrix.to/#/#release:ubuntu.com)
+* If you'd like to help shape Ubuntu, look at the list of ways you can participate at community.ubuntu.com/contribute.
+
+### Governance and policies
+
+* [Code of conduct](https://ubuntu.com/community/code-of-conduct)
+
 
 :::{toctree}
 :hidden:
@@ -44,21 +73,3 @@ LTS releases eleifend augue eros, vel viverra arcu accumsan malesuada. Cras cons
 
 26.04/index
 :::
-
-***
-
-(project-and-community)=
-## Project and community
-
-Ubuntu Desktop is an open source project that warmly welcomes community projects, contributions, suggestions, fixes and constructive feedback.
-
-### Get involved
-
-* [Get support](https://ubuntu.com/support/community-support)
-* [Join our Discourse forum](https://discourse.ubuntu.com/c/project/desktop/)
-* [Join our online chat on Matrix](https://matrix.to/#/#desktop-dev:ubuntu.com)
-* [Contribute to this documentation](https://github.com/ubuntu/ubuntu-desktop-documentation/blob/main/CONTRIBUTING.md)
-
-### Governance and policies
-
-* [Code of conduct](https://ubuntu.com/community/code-of-conduct)
