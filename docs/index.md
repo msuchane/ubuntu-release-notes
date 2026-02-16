@@ -81,11 +81,7 @@ release/26.04/index
 :::{toctree}
 :hidden:
 :maxdepth: 2
-:caption: Release schedules
+:caption: Schedule
 
-Ubuntu 27.10 <schedule/27.10>
-Ubuntu 27.04 <schedule/27.04>
-Ubuntu 26.10 <schedule/26.10>
-Ubuntu 26.04 LTS (Resolute Raccoon) <schedule/26.04>
-Ubuntu 24.04 LTS (Nuble Numbat) <schedule/24.04>
+schedule/index
 :::
