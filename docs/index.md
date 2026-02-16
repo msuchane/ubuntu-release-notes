@@ -4,9 +4,22 @@ Release notes for Ubuntu, summarizing new features, bug fixes and backwards-inco
 
 Release notes contain specific upgrade instructions for that particular release. See also the general guidance on how to prepare for, and perform, an upgrade: [Ubuntu Desktop](https://documentation.ubuntu.com/desktop/en/latest/how-to/upgrade-ubuntu-desktop/) or [Ubuntu Server](https://ubuntu.com/server/docs/how-to/software/upgrade-your-release/).
 
+## 27.10
+
+* {ref}`u-u-schedule`
+
+## 27.04
+
+* {ref}`t-t-schedule`
+
+## 26.10
+
+* {ref}`s-s-schedule`
+
 ## 26.04 LTS
 
 * {ref}`ubuntu-26.04-lts-release-notes`
+* {ref}`resolute-raccoon-schedule`
 * [Ubuntu 26.04 LTS roadmap](https://discourse.ubuntu.com/t/ubuntu-26-04-lts-the-roadmap/72740)
 
 ## 25.10
@@ -18,6 +31,7 @@ Release notes contain specific upgrade instructions for that particular release.
 * [24.04.2](https://discourse.ubuntu.com/t/noble-numbat-point-release-changes/47565/3)  
 * [24.04.1](https://discourse.ubuntu.com/t/noble-numbat-point-release-changes/47565#h-24041-1)  
 * [Ubuntu 24.04 LTS (Noble Numbat) release notes](https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890)
+* {ref}`noble-numbat-schedule`
 
 (release-policy-and-schedule)=
 ## Release policy and schedule
