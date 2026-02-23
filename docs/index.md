@@ -11,7 +11,7 @@ Release notes contain specific upgrade instructions for that particular release.
 
 ## 25.10
 
-* [Questing Quokka release notes](https://discourse.ubuntu.com/t/questing-quokka-release-notes/59220)
+* {ref}`Questing Quokka release notes <ubuntu-25.10-release-notes>`
 
 ## 24.04 LTS
 
