@@ -85,7 +85,7 @@ Your comments, bug reports, patches and suggestions help fix bugs and improve th
 :maxdepth: 2
 :caption: Supported releases
 
-25.10 Questing Quokka <25.10/index>
+25.10 (Questing Quokka) <25.10/index>
 24.04 LTS (Noble Numbat) <24.04/index>
 22.04 LTS (Jammy Jellyfish) <22.04/index>
 :::
