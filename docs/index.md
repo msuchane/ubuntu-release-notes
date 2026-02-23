@@ -6,7 +6,6 @@ Release notes contain specific upgrade instructions for that particular release.
 
 ## 26.04 LTS
 
-* {ref}`ubuntu-26.04-lts-release-notes`
 * {ref}`resolute-raccoon-schedule`
 * [Ubuntu 26.04 LTS roadmap](https://discourse.ubuntu.com/t/ubuntu-26-04-lts-the-roadmap/72740)
 
@@ -76,7 +75,7 @@ Your comments, bug reports, patches and suggestions help fix bugs and improve th
 :maxdepth: 2
 :caption: Supported releases
 
-26.04 LTS (Resolute Raccoon) <26.04/index>
+25.10 Questing Quokka <25.10/index>
 24.04 LTS (Noble Numbat) <24.04/index>
 :::
 
@@ -85,7 +84,7 @@ Your comments, bug reports, patches and suggestions help fix bugs and improve th
 :maxdepth: 2
 :caption: Currently in development
 
-26.10 (S* S*) <26.10/schedule>
+26.04 LTS (Resolute Raccoon) <26.04/schedule>
 :::
 
 :::{toctree}
