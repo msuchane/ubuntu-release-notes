@@ -20,6 +20,16 @@ Release notes contain specific upgrade instructions for that particular release.
 * [Ubuntu 24.04 LTS (Noble Numbat) release notes](https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890)
 * {ref}`noble-numbat-schedule`
 
+## 22.04 LTS
+
+* [22.04.5](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/8)
+* [22.04.4](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/5)
+* [22.04.3](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/4)
+* [22.04.2](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/3)
+* [22.04.1](https://discourse.ubuntu.com/t/jammy-jellyfish-point-release-changes/29835/1)
+* [Ubuntu 22.04 LTS (Jammy Jellyfish) release notes](https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668)
+* {ref}`jammy-jellyfish-schedule`
+
 (release-policy-and-schedule)=
 ## Release policy and schedule
 
@@ -77,6 +87,7 @@ Your comments, bug reports, patches and suggestions help fix bugs and improve th
 
 25.10 Questing Quokka <25.10/index>
 24.04 LTS (Noble Numbat) <24.04/index>
+22.04 LTS (Jammy Jellyfish) <22.04/index>
 :::
 
 :::{toctree}
