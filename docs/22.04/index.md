@@ -50,7 +50,7 @@ To upgrade on a desktop system:
   * Open the "Software & Updates" Setting in System Settings.
   * Select the 3rd Tab called "Updates".
   * Set the "Notify me of a new Ubuntu version" dropdown menu to "For any new version".
-  * Press <kbd>Alt</kbd>+ <kbd>F2</kbd> and type in `update-manager -c` into the command box.
+  * Press {kbd}`Alt+F2` and type in `update-manager -c` into the command box.
     * Update Manager should open up and tell you: **"New distribution release '22.04' is available."**
   * If not you can also use `/usr/lib/ubuntu-release-upgrader/check-new-release-gtk`
   * Click Upgrade and follow the on-screen instructions. 
