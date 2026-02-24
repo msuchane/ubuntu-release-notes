@@ -4,11 +4,6 @@ Release notes for Ubuntu, summarizing new features, bug fixes and backwards-inco
 
 Release notes contain specific upgrade instructions for that particular release. See also the general guidance on how to prepare for, and perform, an upgrade: [Ubuntu Desktop](https://documentation.ubuntu.com/desktop/en/latest/how-to/upgrade-ubuntu-desktop/) or [Ubuntu Server](https://ubuntu.com/server/docs/how-to/software/upgrade-your-release/).
 
-## 26.04 LTS
-
-* {ref}`resolute-raccoon-schedule`
-* [Ubuntu 26.04 LTS roadmap](https://discourse.ubuntu.com/t/ubuntu-26-04-lts-the-roadmap/72740)
-
 ## 25.10
 
 * {ref}`Questing Quokka release notes <ubuntu-25.10-release-notes>`
