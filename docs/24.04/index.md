@@ -24,6 +24,14 @@ Ubuntu 24.04 LTS will be security maintained for 5 years until 31 May 2029. User
 
 Users of Ubuntu 23.10 have been offered an automatic upgrade to 24.04 since shortly after the release. Users of 22.04 LTS will also start being offered the automatic upgrade now that 24.04.1 LTS has been released.
 
+
+## Changes since 22.04 LTS
+
+If you’re upgrading from Ubuntu 22.04 LTS to 24.04 LTS, you get all the changes that happened in the six months since Ubuntu 23.10, as well as the changes in all the interim releases between 22.04 LTS and 24.04 LTS.
+
+For details, see the complete interim release notes: [22.10](https://discourse.ubuntu.com/t/kinetic-kudu-release-notes/27976), [23.04](https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910) and [23.10](https://discourse.ubuntu.com/t/mantic-minotaur-release-notes/35534). Finally, review the following changes since Ubuntu 23.10.
+
+
 (heading--new-features-in-24-04-lts)=
 ## New features in 24.04 LTS
 

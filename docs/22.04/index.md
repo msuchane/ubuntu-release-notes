@@ -65,6 +65,14 @@ Note that the server upgrade will use GNU screen and automatically re-attach in 
 
 There are no offline upgrade options for Ubuntu Desktop and Ubuntu Server. Please ensure you have network connectivity to one of the official mirrors or to a locally accessible mirror and follow the instructions above.
 
+
+## Changes since 20.04 LTS
+
+If you’re upgrading from Ubuntu 20.04 LTS to 22.04 LTS, you get all the changes that happened in the six months since Ubuntu 21.10, as well as the changes in all the interim releases between 20.04 LTS and 22.04 LTS.
+
+For details, see the complete interim release notes: [20.10](https://discourse.ubuntu.com/t/groovy-gorilla-release-notes/15533), [21.04](https://discourse.ubuntu.com/t/hirsute-hippo-release-notes/19221) and [21.10](https://discourse.ubuntu.com/t/impish-indri-release-notes/21951). Finally, review the following changes since Ubuntu 21.10.
+
+
 (heading--new-features-in-22-04-lts)=
 ## New features in 22.04 LTS
 
