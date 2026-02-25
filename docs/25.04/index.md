@@ -19,13 +19,6 @@ As a result, upgrades to Ubuntu 25.04 have been temporarily suspended while thes
 The necessary updates are already in the pipeline, and we expect to re-enable upgrades very soon.
 Thank you for your patience.
 
-## Table of Contents
-
-- [New features in 25.04](#heading--new-features-in-25-04)
-- [Known Issues](#heading--known-issues)
-- [Official flavours](#heading--official-flavours)
-- [More information](#heading--more-information)
-
 ## Support lifespan
 
 Ubuntu 25.04 will be supported for 9 months until January 2026. If you need long term support, we recommend you use [Ubuntu 24.04.2 LTS](https://ubuntu.com/download) which is supported until at least 2029.
@@ -36,7 +29,7 @@ Ubuntu 25.04 will be supported for 9 months until January 2026. If you need long
 
   Early upgrades may wish to perform these updates manually.
 
-(heading--new-features-in-25-04)=
+(25-04-new-features-in-25-04)=
 ## New features in 25.04
 
 ### Updated Packages
@@ -774,7 +767,7 @@ Finally further cryptography-related packages were updated, like:
 * Support Pine64 Star64
 
 
-(heading--known-issues)=
+(25-04-known-issues)=
 ## Known Issues
 
 As is to be expected with any release, there are some significant known bugs that users may encounter with this release of Ubuntu. The ones we know about at this point (and some of the workarounds) are documented here, so you don't need to spend time reporting these bugs again:
@@ -915,7 +908,7 @@ Nothing yet.
 
 Nothing yet.
 
-(heading--official-flavours)=
+(25-04-official-flavours)=
 ## Official flavours
 
 Find the release notes for the official flavours at the following links:
@@ -932,7 +925,7 @@ Find the release notes for the official flavours at the following links:
 * [Ubuntu Cinnamon Release Notes](https://ubuntucinnamon.org/?p=1348)
 
 
-(heading--more-information)=
+(25-04-more-information)=
 ## More information
 
 Refer to {ref}`release-policy-and-schedule` and {ref}`project-and-community`.
