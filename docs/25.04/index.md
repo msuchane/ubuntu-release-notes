@@ -68,17 +68,17 @@ removed in v258. Please make sure to update your software
 *now* to include a native systemd unit file instead of a legacy
 System V script to retain compatibility with future systemd releases.
 
-### Netplan v1.1.2 :globe_with_meridians: 
+### Netplan v1.1.2 🌐
 Adding support for **wpa-psk-sha256** WiFis and allowing to configure **routing-policy** on the NetworkManager backend (LP: [#2086544](https://launchpad.net/bugs/2086544)). Additionally, the version shipped in Ubuntu enables [new functionality](https://github.com/systemd/systemd/pull/34640) in **systemd-networkd-wait-online** to wait for DNS servers to be configured and reachable, before [considering an interface to be online](https://discourse.ubuntu.com/t/spec-definition-of-an-online-system/27838).
 
 ### Toolchain Upgrades 🛠️
 
-* GCC :cow: a snapshot of the upcoming GCC 15, binutils updated to 2.44, and glibc to 2.41.
-* Python :snake: is updated to 3.13.3
-* LLVM :dragon: now defaults to version 20
-* Rust :crab: toolchain defaults to version 1.84
-* Golang :rat: is updated to 1.24
-* OpenJDK :coffee: versions 24 GA and 25 early access snapshot are now available
+* GCC 🐄 a snapshot of the upcoming GCC 15, binutils updated to 2.44, and glibc to 2.41.
+* Python 🐍 is updated to 3.13.3
+* LLVM 🐉 now defaults to version 20
+* Rust 🦀 toolchain defaults to version 1.84
+* Golang 🐀 is updated to 1.24
+* OpenJDK ☕ versions 24 GA and 25 early access snapshot are now available
 
 #### OpenJDK
 
@@ -94,7 +94,7 @@ Additionally, GraalVM Community Edition for JDK versions 21, 24 and 25ea is now 
 
 The [dotnet](https://snapcraft.io/dotnet) snap is updated to include .NET version 9. The [powershell-preview](https://snapcraft.io/powershell-preview) snap has been updated to build from source.
 
-### Default configuration changes :gear:
+### Default configuration changes ⚙️
 
 ### AppArmor profiles
 
@@ -138,7 +138,7 @@ For this reason, starting with version 2024b-5, the tzdata package no longer aut
 
 - New [ADSys Release](https://github.com/ubuntu/adsys): the Active Directory Group Policy client for Ubuntu, supports the latest Polkit and comes with improvements and bug fixes to certificates enrolment.
 
-#### GNOME :footprints:
+#### GNOME 👣
 
 - GNOME has been updated to include new features and fixes from the latest GNOME release, [GNOME 48](https://release.gnome.org/48/)
 - GNOME 48 now includes the [triple buffering](https://discourse.ubuntu.com/t/triple-buffering-a-debrief/56314) feature from Ubuntu
@@ -152,10 +152,10 @@ For this reason, starting with version 2024b-5, the tzdata package no longer aut
 
 #### Updated Applications
 
-* [Firefox](https://mozilla.org/firefox/releases/) 137 :fire::fox_face:
-* [LibreOffice 25.2](https://wiki.documentfoundation.org/ReleaseNotes/25.2) :books:
-* [Thunderbird 128 “Supernova” ](https://blog.thunderbird.net/2023/07/our-fastest-most-beautiful-release-ever-thunderbird-XY-supernova-is-here/) :cloud_with_lightning::bird:
-* [GNU Image Manipulation Program 3.0](https://www.gimp.org/news/2025/03/16/gimp-3-0-released/) :framed_picture: is available for install
+* [Firefox](https://mozilla.org/firefox/releases/) 137 🔥🦊
+* [LibreOffice 25.2](https://wiki.documentfoundation.org/ReleaseNotes/25.2) 📚
+* [Thunderbird 128 "Supernova"](https://blog.thunderbird.net/2023/07/our-fastest-most-beautiful-release-ever-thunderbird-XY-supernova-is-here/) 🌩️🐦
+* [GNU Image Manipulation Program 3.0](https://www.gimp.org/news/2025/03/16/gimp-3-0-released/) 🖼️ is available for install
 * The `fish` shell has always been known for its smart and user-friendly interface, making command-line interactions more intuitive and efficient. With the release of version 4, `fish` has undergone a significant transformation, rewritten entirely in Rust.
 
     This change brings a on one side the values of the ecosystem like enhanced performance and improved stability, while on the other side is not compromising on the feature set. The upstream community had a great [blog about the rust port](https://fishshell.com/blog/rustport/), which we recommend reading if you are curious.
@@ -164,13 +164,13 @@ For this reason, starting with version 2024b-5, the tzdata package no longer aut
 
 #### Updated Subsystems
 
-* [BlueZ 5.79](https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/ChangeLog?id=5.79) :blue_heart:
-* [Cairo 1.18.4](https://cairographics.org/news/cairo-1.18.4/) :camel:
+* [BlueZ 5.79](https://git.kernel.org/pub/scm/bluetooth/bluez.git/tree/ChangeLog?id=5.79) 💙
+* [Cairo 1.18.4](https://cairographics.org/news/cairo-1.18.4/) 🐫
 * [NetworkManager 1.52](https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/blob/nm-1-52/NEWS) 🖧
-* [Pipewire 1.2.7](https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/1.2.7/NEWS) :loud_sound:
-* [Poppler 25.03](https://gitlab.freedesktop.org/poppler/poppler/-/blob/poppler-25.03.0/NEWS) :memo:
-* [xdg-desktop-portal 1.20](https://github.com/flatpak/xdg-desktop-portal/blob/1.20.0/NEWS.md) :shinto_shrine:
-* [Nvidia 570](https://www.nvidia.com/en-us/drivers/details/242273/) :eye:
+* [Pipewire 1.2.7](https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/1.2.7/NEWS) 🔊
+* [Poppler 25.03](https://gitlab.freedesktop.org/poppler/poppler/-/blob/poppler-25.03.0/NEWS) 📝
+* [xdg-desktop-portal 1.20](https://github.com/flatpak/xdg-desktop-portal/blob/1.20.0/NEWS.md) ⛩️
+* [Nvidia 570](https://www.nvidia.com/en-us/drivers/details/242273/) 👁️
 * The `libva` library is now available in the *Main* repository component. The library implements VA-API (Video Acceleration API) for hardware video decoding and encoding. Applications can now use VA-API out of box. Notably, you can record your screen at the original screen rate. Without VA-API, your screen recording has a reduced frame rate because it's limited by the CPU. To use VA-API, enable third-party drivers during Ubuntu installation. You can also install the library after installation:
 
     ```bash
