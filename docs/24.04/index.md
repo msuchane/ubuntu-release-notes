@@ -1021,7 +1021,7 @@ There is no longer a need to install the `pi-bluetooth` package in order to enab
 
 The new arm64+largemem ISO includes a kernel with 64k page size. A larger page size can increase throughput, but comes at the cost of increased memory use, making this option more suitable for servers with plenty of memory. Typical use cases for this ISO include: machine learning, databases with many large entries, high performance computing.
 
-#### IBM Z and LinuxONE ![image|32x32](upload://dZM0RRlelqCcZc6RhqJGMW8DMZr.png) 
+#### IBM Z and LinuxONE
 
 * The key 's390-tools' package was step-by-step upgraded to latest v2.31.0 ([LP: #2049612](https://launchpad.net/bugs/2049612)), which incl. lots of updates, new tools and features, especially a secure guest tool to bind and associate APQNs crypto domains ([LP: #2003672](https://launchpad.net/bugs/2003672)).
 * Like on all other architectures, COMPAT_32BIT_TIME was also disabled on s390x ([LP: #2038583](https://launchpad.net/bugs/2038583)), and with that 31/32bit legacy support is removed ([LP: #2051683](https://launchpad.net/bugs/2051683)).
